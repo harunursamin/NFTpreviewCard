@@ -67,11 +67,15 @@ body {
   height: 20rem;
   background-color: hsla(178, 100%, 50%, 0.414);
   border-radius: 1rem;
-  display: none;
+  opacity: 0;
+  transition: all .3s ease-out;
+  /* display: ; */
 }
 
 .container .img:hover .overlay {
-  display: flex;
+  /* display: flex; */
+  opacity: 1;
+  transition: all .3s ease-out;
 }
 
 .text p,
